@@ -44,9 +44,9 @@ $(function () {
    createCollectable("grace", 700,400);
     
     // TODO 4 - Create Cannons
-
-
-    
+   createCannon("bottom", 100, 1000);
+   createCannon("top",300, 1000);
+   createCannon();
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
